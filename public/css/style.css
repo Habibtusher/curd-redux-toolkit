@@ -25,7 +25,9 @@
     flex-grow: 1;
     display: flex;
 }
-
+.error{
+    color: #e6425e;
+}
 .container {
     width: 90%;
     max-width: 1024px;
@@ -163,7 +165,7 @@ label {
 }
 
 .cancel_edit {
-    display: none;
+ 
     margin-top: 10px;
     background-color: #e6425e !important;
 }
